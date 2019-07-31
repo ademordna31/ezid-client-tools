@@ -46,5 +46,6 @@ _At this point, Anaconda is set to run the batch mint ARKs script. The following
 - ark:/21198/z1 is the UCLA Digital Library ARK
 - The -o argument indicates what the output file should be called and what column contains manuscript title. In this case, it is in column 3
 - Use the names of the mapping and metadata files created previously.
+
 `python batch-register.py -c ucla-library -s ark:/21198/z1 mint mapping.txt metadata.csv -o _id,3 > output.csv`
 
